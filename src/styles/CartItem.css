@@ -1,0 +1,170 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.cart-item:hover {
+  background-color: #f0f0f0;
+}
+
+.item-image {
+  font-size: 50px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.item-details {
+  flex: 1;
+  min-width: 150px;
+}
+
+.item-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.item-category {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.item-price {
+  margin: 0;
+  font-size: 14px;
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Quantity Controls */
+.item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.qty-btn {
+  background-color: transparent;
+  border: none;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.qty-btn:hover {
+  background-color: #f0f0f0;
+  color: #0056b3;
+}
+
+.qty-value {
+  width: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Item Total */
+.item-total {
+  min-width: 80px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Remove Button */
+.remove-btn {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  background-color: #cc0000;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-item {
+    gap: 15px;
+    padding: 12px;
+  }
+
+  .item-image {
+    font-size: 40px;
+    min-width: 50px;
+  }
+
+  .item-details {
+    min-width: 120px;
+  }
+
+  .item-details h3 {
+    font-size: 14px;
+  }
+
+  .item-total {
+    min-width: 60px;
+    font-size: 14px;
+  }
+
+  .remove-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-item {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .item-image {
+    font-size: 35px;
+    min-width: 45px;
+  }
+
+  .item-details {
+    flex: 1 1 100%;
+    order: 1;
+  }
+
+  .item-quantity {
+    order: 2;
+  }
+
+  .item-total {
+    order: 3;
+  }
+
+  .remove-btn {
+    order: 4;
+  }
+}
