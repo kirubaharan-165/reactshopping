@@ -31,7 +31,7 @@ reactshopping/
 └── README.md                  # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -57,7 +57,7 @@ reactshopping/
 4. **Open your browser:**
    - The app will automatically open at `http://localhost:3000`
 
-## ✨ Features
+##  Features
 
 ### 1. **Product Listing**
    - Displays 8 sample products with emoji icons
@@ -122,7 +122,7 @@ reactshopping/
 - Format: JSON string of cart array
 - Loaded on app startup, saved after every change
 
-## 📚 Component Breakdown
+##  Component Breakdown
 
 ### **App.js** (Main Component)
 - Manages global state for cart, filters, and view
@@ -157,7 +157,7 @@ reactshopping/
 - X button to remove item
 - Shows item total (price × quantity)
 
-## 🎨 Design
+##  Design
 
 - **Colors:**
   - Primary: #007bff (Blue)
@@ -203,7 +203,7 @@ Edit CSS files in `src/styles/` and update color values like:
 ### Add New Categories
 Update product data and filter options in `App.js`
 
-## 🐛 Common Issues & Solutions
+## Common Issues & Solutions
 
 **Issue: App doesn't start**
 - Solution: Run `npm install` to ensure all dependencies are installed
@@ -214,14 +214,14 @@ Update product data and filter options in `App.js`
 **Issue: Styles look broken**
 - Solution: Clear browser cache and restart dev server
 
-## 📱 Browser Compatibility
+##  Browser Compatibility
 
 - Chrome/Edge: Full support
 - Firefox: Full support
 - Safari: Full support
 - IE11: Not supported (uses ES6)
 
-## 🎓 Learning Concepts
+## Learning Concepts
 
 This project covers:
 1. **Functional Components** - All components are functional
@@ -235,7 +235,7 @@ This project covers:
 9. **State Management** - Managing complex state
 10. **Performance** - useMemo for optimization
 
-## 📦 Build for Production
+##  Build for Production
 
 Create an optimized production build:
 ```bash
@@ -244,7 +244,7 @@ npm run build
 
 This creates a `build` folder with minified and optimized code ready for deployment.
 
-## 🤝 Next Steps for Practice
+##  Next Steps for Practice
 
 1. Add product images (replace emojis with image URLs)
 2. Add product detail page
@@ -256,11 +256,3 @@ This creates a `build` folder with minified and optimized code ready for deploym
 8. Add wishlist feature
 9. Add product recommendations
 10. Deploy to Vercel or Netlify
-
-## 📄 License
-
-This project is open-source for educational purposes.
-
----
-
-**Happy Coding! 🚀** This is a great foundation for learning React fundamentals!
